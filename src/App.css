@@ -1,7 +1,24 @@
 .App {
   text-align: center;
 }
+.container {
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 20px; 
+}
+.btn, .update-btn, .all-btn {
+  margin: 10px;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
 
+  .btn, .update-btn, .all-btn {
+    width: 100%; 
+    font-size: 16px; 
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +29,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,11 +39,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![My Image](./public/readme.png) <!-- Adjust the path based on where you placed the image -->
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

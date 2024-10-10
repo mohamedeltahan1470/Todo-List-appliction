@@ -1,9 +1,6 @@
 import  React ,{ useState } from 'react';
 import shortid from "shortid";
 import "./TodoStyle.css";
-
-
-
 const Todolist = ( props) => {
     const [text , setText]=useState("");
     const handleSubmit=(e) =>{
@@ -22,5 +19,4 @@ const Todolist = ( props) => {
     </form>
   )
 }
-
 export default Todolist;
